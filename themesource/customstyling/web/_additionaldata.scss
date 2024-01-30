@@ -1,0 +1,102 @@
+.horizontal-list-designation.mx-listview {
+    overflow-x: auto;
+
+    &>ul {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    &>ul>li {
+        text-align: center;
+        padding: 5px 8px;
+        cursor: default;
+        border: 0;
+        background-color: #d0efff;
+        width: fit-content;
+        display: inline-block;
+        // box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        margin-right: 15px;
+        border-radius: 10px;
+        color: #1c72b5;
+        font-weight: 600;
+        margin-bottom: 8px;
+
+        &:hover,
+        &:focus,
+        &:active {
+            //    background-color: transparent;
+        }
+
+        &.selected {
+
+            //   background-color: transparent !important;
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: transparent !important;
+            }
+        }
+    }
+}
+
+.horizontal-list-level.mx-listview {
+    overflow-x: auto;
+
+    &>ul {
+        width: 1500px;
+    }
+
+    &>ul>li {
+        text-align: center;
+        padding: 3px 5px;
+        cursor: default;
+        border: 0;
+        background-color: #e8c9ff;
+        width: fit-content;
+        display: inline-block;
+        // box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        margin-right: 13px;
+        border-radius: 10px;
+        font-size: 11px;
+        font-weight: 600;
+
+        &:hover,
+        &:focus,
+        &:active {
+            //    background-color: transparent;
+        }
+
+        &.selected {
+
+            //   background-color: transparent !important;
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: transparent !important;
+            }
+        }
+    }
+}
+
+.questions-grid-outer {
+
+    .mx-templategrid-item {
+        border: none;
+    }
+
+    .mx-templategrid .mx-templategrid-item.selected {
+        background-color: transparent !important;
+
+        .questions-card {
+            //  border: 1px solid #4f46e5;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        }
+    }
+}
+
+.questions-card {
+    background-color: white;
+    padding: 2% 2% 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}

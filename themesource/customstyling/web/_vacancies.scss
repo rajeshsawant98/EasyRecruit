@@ -1,0 +1,46 @@
+.vacancy-card {
+    background-color: white;
+    padding: 4%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+
+    .designation-text {
+        font-weight: 600;
+        font-family: system-ui;
+        font-size: large;
+    }
+
+    &:hover {
+        border: 1px solid #4f46e5;
+    }
+
+    border-radius: 5px;
+
+    .view-applicants {
+        &:hover {
+            color: #4f46e5;
+        }
+    }
+
+    .vacancy-card-labels {
+        color: silver;
+        font-weight: 400;
+    }
+
+}
+
+
+.vacancy-grid-outer {
+
+    .mx-templategrid-item {
+        border: none;
+    }
+
+    .mx-templategrid .mx-templategrid-item.selected {
+        background-color: transparent !important;
+
+        .vacancy-card {
+            border: 1px solid #4f46e5;
+        }
+    }
+}

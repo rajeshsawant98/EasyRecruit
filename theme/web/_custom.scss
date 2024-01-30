@@ -1,0 +1,130 @@
+.login {
+    // background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+    //  padding-top: 100px;
+    // padding-bottom: auto;
+    overflow-y: hidden;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.login-page {
+    //  background-color: white;
+
+    //background-size: 76%;
+    //background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(90deg, transparent 50%, rgba(0, 0, 255, 0.445) 50%), url(./Login.png);
+}
+
+.login-container {
+    // margin:2cm auto auto auto;
+
+    padding: 10px 30px 10px 30px;
+    // position: absolute;
+    // top: 15%;
+    // left: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18vh;
+    width: 63%;
+    background: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    // box-shadow: 0 0 20px 6px #090b6f85;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    //height: 70%;
+
+    .form-control:not([readonly]):focus {
+
+        border-color: rgb(18, 213, 80);
+        outline: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1;
+        /* Firefox */
+    }
+}
+
+.login-field {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+
+    // background: rgba(255, 255, 255, 0.479);
+    &:act {
+
+        outline: 0;
+
+        background: transparent;
+
+    }
+
+
+}
+
+
+
+.login-buton {
+    width: 100%;
+    background-color: rgb(18, 213, 80);
+
+
+    border-color: rgb(18, 213, 80);
+    //  color: black;
+    text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+
+}
+
+.login-buton:hover {
+    background-color: #01834f;
+    border-color: #5651ad;
+}
+
+@media (min-width: 992px) {
+    .login-layoutgrid {
+        padding: 3px 24px 3px 24px;
+    }
+}
+
+.rp {
+    padding: 0 !important;
+}
+
+.bkg-img {
+    //background-image: url('home.jpg');
+    background-color: white;
+
+    background-size: 76%;
+    background-position: right;
+    background-repeat: no-repeat;
+    // background-image: url('home.jpg');
+    background-image: linear-gradient(120deg, white 35%, transparent 65%), url(./home.jpg);
+
+    @media screen and (min-height: 793px) {
+        background-size: 91%;
+    }
+    @media (height: 768px) and (width:1366px) {
+        background-size: 91%;
+    }
+}

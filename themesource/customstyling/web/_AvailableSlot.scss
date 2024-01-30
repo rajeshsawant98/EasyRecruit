@@ -1,0 +1,48 @@
+.calendar-container {
+    .mx-listview>ul>li {
+        transition: all 0.3s 0s cubic-bezier(0.4, 0, 0.2, 1);
+        transform-style: initial;
+        background-color: #fff;
+        padding: 5px;
+        border-bottom: 1px solid #ced0d3;
+    }
+}
+
+.slotpicker {
+    margin: 2%;
+    width: 33%;
+    background-color: #c3bff3;
+    /* align-self: center; */
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1%;
+
+    &:hover {
+        background-color: #726afcd7;
+        color: white;
+    }
+
+}
+
+.slotstitle {
+    color: #264ae5;
+    font-size: larger;
+    font-weight: 600;
+    padding-bottom: 5%;
+
+}
+
+.availableslotslv {
+    .mx-listview>ul>li {
+        transition: all 0.3s 0s cubic-bezier(0.4, 0, 0.2, 1);
+        transform-style: initial;
+        background-color: #fff;
+        padding: 0px;
+        border-top: 1px solid #ced0d3;
+    }
+}
+
+.availslotcard {
+    padding: 2%;
+}

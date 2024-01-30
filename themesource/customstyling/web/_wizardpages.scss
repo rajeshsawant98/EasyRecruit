@@ -1,0 +1,147 @@
+.wizard-pill {
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px solid #8881fc;
+    color: #8881fc;
+    background-color: #ebe9fc;
+    z-index: 1;
+}
+
+.wizard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wizard-pill-active {
+    background-color: #8881fc;
+    color: white;
+}
+
+.middle-line-wizard {
+    border-top: 2px solid rgb(192, 187, 187);
+    position: relative;
+    z-index: 0;
+    bottom: 50%;
+    width: 80%;
+    left: 10%;
+}
+
+.processing-popup {
+    .modal-header {
+        display: none;
+    }
+
+    width:610px;
+}
+
+//save btn
+.savenext-btn {
+    appearance: none;
+    background-color: #8881fc;
+    border: 1px solid #8881fc;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.savenext-btn:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.savenext-btn:hover {
+    background-color: #5c54d7;
+    border: 1px solid #5c54d7;
+    color: #fff;
+}
+
+.savenext-btn:focus {
+    box-shadow: #5e58b6;
+    outline: none;
+}
+
+.savenext-btn:disabled {
+    background-color: #a6a2e1;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.savenext-btn:active {
+    background-color: #837cdd;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+//save button end
+
+.skipnext-btn {
+    appearance: none;
+    background-color: #ebe9fc;
+    border: 1px solid #5c54d7;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #5c54d7;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.skipnext-btn:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.skipnext-btn:hover {
+    background-color: #c9c6ea;
+    color: #5c54d7;
+    border: 1px solid #5c54d7;
+}
+
+.skipnext-btn:focus {
+    box-shadow: #5c54d7;
+    outline: none;
+}
+
+.skipnext-btn:disabled {
+    background-color: #c9c6ea;
+    border-color: #5c54d7;
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.skipnext-btn:active {
+    background-color: #c9c6ea;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+//skip button end

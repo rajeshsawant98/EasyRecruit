@@ -1,0 +1,31 @@
+.user-role-text {
+    background-color: #ebecfc;
+    padding: 0;
+    background-size: cover;
+    width: 50%;
+    position: relative;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.resource-email {
+    color: #636aee;
+}
+
+.resource-card {
+    background-color: #f9f9fc;
+    padding: 4%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5%;
+
+    &:hover {
+        animation: myAnim 2s ease 0s 1 normal forwards;
+    }
+
+    .resource-name {
+        font-weight: 600;
+        font-family: system-ui;
+        font-size: large;
+    }
+
+}

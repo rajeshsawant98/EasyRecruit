@@ -1,0 +1,536 @@
+.candidate-card {
+  .form-group {
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+  }
+
+  .control-label {
+    color: #6c6c6c;
+    margin-left: 20px;
+  }
+
+  .form-control-static {
+    font-size: 13px;
+  }
+}
+
+.label-container {
+  border-top: 1px solid rgb(161, 161, 161);
+}
+
+.resume-label {
+  color: #6c6c6c;
+  margin-bottom: 0px !important;
+  margin-top: 12px !important;
+  font-weight: 600;
+  margin-left: 20px;
+  width: 25%;
+}
+
+.resume-text {
+  //padding-left: 8px;
+  font-size: 13px;
+
+}
+
+.li-card {
+  border-top: 1px solid #cdcaca;
+  border-right: 1px solid #c7c7c7;
+  border-left: 1px solid #cdcaca;
+  border-radius: 5px;
+  padding: 4% 6%;
+  // margin-bottom: 5% !important;
+  box-shadow: 2px 2px 0px 0px #7a76766b;
+  background-color: white;
+
+  &:hover {
+    box-shadow: 0px 0px 2px 2px #5892cd;
+  }
+}
+
+
+
+.li-outer {
+  height: 100%;
+  overflow-y: auto;
+
+  .mx-listview>ul>li {
+    background-color: #ffffff00;
+    border: none;
+    padding: 5px;
+
+  }
+
+  .mx-listview .selected {
+    .li-card {
+      box-shadow: 0px 0px 2px 2px #5892cd;
+    }
+
+    background-color: #ffffff00;
+  }
+
+  .listview-lined.mx-listview>ul>li:last-child {
+    border-bottom: none;
+  }
+
+  .listview-lined.mx-listview>ul>li:first-child {
+    border-top: none;
+  }
+
+
+}
+
+.candidate-tab-container {
+  .masterdetail .masterdetail-master {
+    border-right: none !important;
+    // border-bottom: none !important;
+  }
+}
+
+.tab-container-outer {
+  .tab-lined.mx-tabcontainer>.mx-tabcontainer-tabs li>a:focus {
+    outline: none !important;
+  }
+
+  .tab-lined.mx-tabcontainer>.mx-tabcontainer-tabs li {
+    margin-right: 35px;
+  }
+}
+
+.pageheader1 {
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+
+.mx-scrollcontainer-middle {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.masterdetail .masterdetail-detail {
+  padding: 3px;
+}
+
+.label1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #aba8a7;
+}
+
+.label2 {
+  font-size: 15px;
+  color: #4e46e5a2;
+  font-weight: 600;
+  // color: #aba8a7;
+}
+
+.field1 {
+  font-size: 15px;
+  color: #070707;
+ 
+}
+.label3 {
+  font-size: 15px;
+  color: #4e46e5;
+  font-weight: 800;
+ 
+}
+
+.to-con {
+  max-height: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  //border: 1px solid black;
+  padding: 10px 20px;
+  overflow-y: scroll;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  .mx-listview>ul {
+    margin: 0px 0 0px;
+  }
+}
+
+.middle-con {
+  background: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+}
+
+.right-con {
+  background: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  border-right: 4px solid rgb(18, 213, 80);
+}
+
+.feedback-div2-outer {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.feedback-div2-inner1 {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.feedback-div2-inner2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.feedback-div1-outer {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.feedback-div1-inner1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.feedback-div1-inner2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+
+::-webkit-scrollbar {
+
+
+
+  //   display:none;
+
+  box-shadow: inset 0 0 5px grey;
+
+  border-radius: 1px;
+
+  overflow-x: hidden;
+
+
+
+}
+
+::-webkit-scrollbar {
+
+  width: 8px;
+
+  height: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  background: #4e46e5;
+
+  border-radius: 10px;
+
+  height: 10px;
+
+}
+
+
+
+/* CSS */
+.schedule-btn {
+  appearance: none;
+  background-color: #12D550;
+  border: 1px solid #12D550;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.schedule-btn:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.schedule-btn:hover {
+  background-color: #08bd42;
+  border: 1px solid #08bd42;
+  color: #fff;
+}
+
+.schedule-btn:focus {
+  box-shadow: #12D550;
+  outline: none;
+}
+
+.schedule-btn:disabled {
+  background-color: #8bd49b;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.schedule-btn:active {
+  background-color: #52c974;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+// ------------- schedule end------------------------
+
+
+.reject-btn {
+  appearance: none;
+  background-color: #f7b440;
+  border: 1px solid #f7b440;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.reject-btn:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.reject-btn:hover {
+  background-color: #d38e17;
+  color: #fff;
+  border: 1px solid #d38e17;
+}
+
+.reject-btn:focus {
+  box-shadow: #c9963e;
+  outline: none;
+}
+
+.reject-btn:disabled {
+  background-color: #ceb58b;
+  border-color: #ceb58b;
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.reject-btn:active {
+  background-color: #f7b440;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+// ------------- reject end------------------------
+.resume-btn {
+  appearance: none;
+  background-color: #58b7d6;
+  border: 1px solid #58b7d6;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.resume-btn:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.resume-btn:hover {
+  background-color: #0f88b1;
+  color: #fff;
+  border: 1px solid #0f88b1;
+}
+
+.resume-btn:focus {
+  box-shadow: #6ecae9;
+  outline: none;
+}
+
+.resume-btn:disabled {
+  background-color: #94c3d3;
+  border-color: #94c3d3;
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.resume-btn:active {
+  background-color: #3b92af;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+
+// ------------- resume end------------------------
+
+
+.delete-btn {
+  appearance: none;
+  background-color: #f77a40;
+  border: 1px solid #f77a40;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.delete-btn:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.delete-btn:hover {
+  background-color: #e24e09;
+  color: #fff;
+  border: 1px solid #e24e09;
+}
+
+.delete-btn:focus {
+  box-shadow: #e24e09;
+  outline: none;
+}
+
+.delete-btn:disabled {
+  background-color: #e24e09b9;
+  border-color: #e24e09b9;
+  color: rgba(250, 246, 246, 0.8);
+  cursor: default;
+}
+
+.delete-btn:active {
+  background-color: #f85a1b;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+//////////////////---------delete  end---------------
+/// 
+/// <!-- HTML !-->
+
+
+/* CSS */
+.cancel-btn {
+  appearance: none;
+  background-color:  #FAFBFC;;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.cancel-btn:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.bcancel-btn:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.cancel-btn:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.cancel-btn:focus {
+  outline: 1px transparent;
+}
+
+.cancel-btn:before {
+  display: none;
+}
+
+.cancel-btn:-webkit-details-marker {
+  display: none;
+}
+///////////////////////resume pop up //////////////////////
+
+

@@ -1,0 +1,42 @@
+.schedule-interview-popup {
+
+    .form-group .control-label {
+        color: $brand-primary;
+    }
+
+    .time-label {
+        overflow: hidden;
+        text-align: left;
+        text-overflow: ellipsis;
+        color: $brand-primary;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0;
+
+    }
+
+    .form-group.no-columns:not(.label-after) {
+        margin-bottom: 16px !important;
+    }
+
+    .MuiInputBase-input {
+        display: flex;
+        flex: 1;
+        min-width: 50px;
+        height: auto;
+        padding: 8px 8px;
+        transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+        color: #0a1325;
+        border: 1px solid #e7e7e9;
+        border-radius: 4px;
+        background-color: #fff;
+        background-image: none;
+        box-shadow: none;
+        font-size: 14px;
+        line-height: 1.428571429;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+}

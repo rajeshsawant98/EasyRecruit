@@ -1,0 +1,60 @@
+.settings-cards {
+    //border: 2px solid #4f46e5;
+    border-radius: 5px;
+    background-color: white !important;
+    width: 90%;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    //   background: linear-gradient(-325deg, #08151a, #1948ee);
+
+    // .mx-link {
+    //     padding: 0;
+    //     color: #ffffff;
+    // }
+
+    color: white;
+
+    &:hover {
+        animation: myAnim 2s ease 0s 1 normal forwards;
+
+        .card-icon {
+            animation: myAnim4 2s ease 0s 1 normal forwards;
+        }
+
+        .settings-button-title {
+            // animation: myAnim4 2s ease 0s 1 normal forwards;
+        }
+
+        // background: linear-gradient(-325deg, #08151a, #1948ee);
+
+        // .mx-link {
+        //     padding: 0;
+        //     color: #ffffff;
+        // }
+    }
+}
+
+@keyframes myAnim {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes myAnim4 {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
